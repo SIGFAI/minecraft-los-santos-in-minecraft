@@ -1,0 +1,1 @@
+Install Fabric Loader and Fabric API for Minecraft Java 26.3, then drop the mod jar in your mods folder. Start a new world: the city builds itself at spawn. Right-click a car to drive, use the Car Keys, and watch the wanted stars.

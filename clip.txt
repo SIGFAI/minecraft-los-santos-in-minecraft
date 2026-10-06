@@ -1,0 +1,7 @@
+Moments the clip must show (ticked only when I SEE them in the preview footage):
+
+[x] 1. Opening street (0-3 s): blocky Los Santos avenue, traffic and parked cars, traffic lights, lit windows, the VINEWOOD sign on the hill.
+[x] 2. Crime and police (3-14 s): the pistol hits a pedestrian, WANTED stars climb, LSPD cruisers with flashing lights arrive, officers in blue jump out, the SMG fires back.
+[x] 3. The chopper (14-24 s): the LSPD helicopter with spinning blades and a spotlight circles overhead at 4-5 stars; the player calls a yellow car with the Car Keys and drives off with the third-person chase camera.
+[x] 4. Chase (20-38 s): cruisers tail the car and shoot, homing rockets hit the helicopter and a cruiser (weakest moment: the explosions are quick), then the stars drop (COPS SHAKEN).
+[x] 5. Finale (38-78 s): drive up the hill to the VINEWOOD sign (mission passed), look up at the lit letters, then turn to the skyline at sunset with the title card.
