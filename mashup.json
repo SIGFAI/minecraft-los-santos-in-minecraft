@@ -1,0 +1,72 @@
+{
+  "id": "sigf/minecraft-los-santos-in-minecraft",
+  "version": "1.0.0",
+  "name": "Los Santos in Minecraft",
+  "tagline": "Bring GTA V into Minecraft: a blocky Los Santos with traffic, police chases and the Vinewood sign. The player gets wanted stars and the LSPD comes in Minecraft style. It shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-los-santos-in-minecraft.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-los-santos-in-minecraft/releases/download/v1.0.0/minecraft-los-santos-in-minecraft.mrpack",
+        "sha256": "efd36b2dd7c0bd35a2adb9d69c7110adb87084eac02516b03b0ab974d750d405",
+        "size": 276466
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-los-santos-in-minecraft.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-los-santos-in-minecraft/releases/download/v1.0.0/minecraft-los-santos-in-minecraft.mrpack",
+      "sha256": "efd36b2dd7c0bd35a2adb9d69c7110adb87084eac02516b03b0ab974d750d405",
+      "size": 276466
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-los-santos-in-minecraft",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-06-972a8183.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-06T21:57:15.838Z",
+  "notes": [
+    "Install Fabric Loader and Fabric API for Minecraft Java 26.3, then drop the mod jar in your mods folder. Start a new world: the city builds itself at spawn. Right-click a car to drive, use the Car Keys, and watch the wanted stars."
+  ]
+}
